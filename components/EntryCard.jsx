@@ -3,6 +3,9 @@ import Image from 'next/image'
 // styles
 import styles from "./EntryCard.module.css"
 
+// if an error makes it in does not break app
+// remove (etc.) from titles
+// render link and image as link
 const EntryCard = ({ error=0, image, title, url }) => (
     error ? <></> :
     <div className={styles.container}>
