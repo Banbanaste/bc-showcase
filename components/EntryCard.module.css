@@ -1,0 +1,32 @@
+.container {
+    border: 1px solid #edeff3;
+    border-radius: 2px;
+    box-shadow: 0 3px 17px rgb(35 46 105 / 10%);
+    display: flex flex-column;
+    margin-bottom: 4%;
+    overflow: hidden;
+    width: 48%;
+}
+
+.image {
+    width: "100%";
+}
+
+.titleSection {
+    border-bottom: 1px solid #edeff3;
+    padding: 0.52941rem 1.29412rem 0.82353rem;
+    position: relative;
+}
+
+.title {
+    color: #4c4b58;
+    font-size: 1.05882rem;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.link {
+    color: #0d52ff;
+    font-size: .88235rem;
+    font-weight: 400;
+}

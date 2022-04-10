@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 5.88235rem;
+    padding-top: 1.17647rem;
+    text-align: left;
+}
+
+.page {
+    background: none;
+    border-radius: 2px;
+    color: #6f8dfd;
+    display: block;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: inherit;
+    padding: 0.5rem 0.1875rem;
+    transition: background-color .3s ease-out;
+}
+
+.page:hover {
+    cursor: pointer;
+}
+
+.selected {
+    background: none;
+    border-radius: 2px;
+    color: #77757f;
+    cursor: default;
+    display: block;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: inherit;
+    padding: 0.5rem 0.1875rem;
+    transition: background-color .3s ease-out;
+}
