@@ -23,6 +23,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deplyed at [bc-showcase.vercel.app](https://bc-showcase.vercel.app/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## TO DO
+
+- [ ] handle SSG api fetch errors, on endpoint error retry or some form of that
+- [ ] PageControls add ... feature or handle large number of pages
+- [ ] Unit Tests
+- [ ] SEO for listings
