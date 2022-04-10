@@ -1,4 +1,6 @@
 import EntryCard from "./EntryCard"
 import PageControls from "./PageControls"
 
-export default { EntryCard, PageControls }
+const Components = { EntryCard, PageControls }
+
+export default Components

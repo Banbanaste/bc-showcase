@@ -1,7 +1,7 @@
 // styles
 import styles from "./PageControls.module.css"
 
-export default function Controler({ current, handlePageClick, pages }) {
+const PageControls = ({ current, handlePageClick, pages }) => {
     // no side effect handleing
     // create list of elements represent page buttons 
     const pageArray = []
@@ -30,3 +30,5 @@ export default function Controler({ current, handlePageClick, pages }) {
         </div>
     )
 }
+
+export default PageControls
